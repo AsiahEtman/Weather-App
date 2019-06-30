@@ -1,0 +1,128 @@
+/*
+	stylesheet for weather app
+*/
+body {
+	background-image: url("../img/city_vector.jpg");
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	color: white;
+}
+
+
+.navbar {
+	background-color: rgb(69, 106, 171);
+	opacity: 0.8;
+	color: white;
+}
+
+.navbar a {
+	color: white;
+	font-size: 25px;
+}
+
+
+.weather {
+	border:1px solid white;
+	margin-left: 4rem;
+	margin-bottom: 2rem;
+	
+	
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+	color: white;
+}
+
+.weather-head {
+	height: 30%;
+}
+
+#icon-desc {
+	font-size: 3rem;
+	padding-top: 1.5rem;
+	
+}
+
+.humidity, .wind, .visibility {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	font-size: 0.9rem;
+
+}
+
+#description {
+	font-size: 1rem;
+}
+
+#temperature {
+	font-size: 3rem;
+}
+
+#icon-thermometer {
+	font-size: 3rem;
+	padding-top: 2rem;
+	
+}
+
+#humidity, #wind, #visibility {
+	font-size: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+
+
+
+.main-content {
+	
+	text-align: center;
+	padding-top: 40px;
+}
+h1 {
+    font-size: 48px;
+}
+input {
+	color: #000;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0px;
+    width: 30%;
+	border: 2px solid white;
+	opacity: 0.5;
+	border-radius:20px; 
+}
+
+button ,#Ahref{
+    font-size: 16px;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+    border: 1px solid white;
+    background:  rgb(69, 106, 171);
+	color: #fff;
+	opacity: 0.7;
+	border-radius:20px; 
+}
+
+button:hover ,#Ahref:hover  {
+    background: #000;
+    color: #fff;
+}
+
+#Rbutton{
+	float: right;
+	margin-bottom: 1rem;
+	border-radius: 15px;
+	background-color: rgba(225, 0, 0, 0.6);
+	color:white;
+	width:250px;
+	
+}
+
+#Rbutton:hover{
+	
+	background :red;
+    color: white;
+}
